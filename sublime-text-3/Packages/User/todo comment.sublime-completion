@@ -1,0 +1,10 @@
+{
+  "scope": "source.php",
+  "completions":
+  [
+
+    { "trigger": "/t", "contents": "OHHI$1" },
+    { "trigger": "ttt", "contents": "OHHI$1" }
+
+  ]
+}

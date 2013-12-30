@@ -1,0 +1,23 @@
+{
+	"auto_upgrade_last_run": null,
+	"installed_packages":
+	[
+		"ApacheConf.tmLanguage",
+		"DocBlockr",
+		"Emmet",
+		"Handlebars",
+		"INI",
+		"Laravel Blade Highlighter",
+		"laravel-blade",
+		"LESS",
+		"Package Control",
+		"Pretty JSON",
+		"SCSS",
+		"Smart Title Case",
+		"Theme - Soda"
+	],
+	"repositories":
+	[
+		"https://github.com/mattstevens/sublime-titlecase"
+	]
+}

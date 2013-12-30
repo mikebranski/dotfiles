@@ -1,0 +1,22 @@
+[
+	{
+		"keys": ["super+shift+control+d"],
+		"command": "find_all_under"
+	},
+	{
+		"keys": ["super+alt+up"],
+		"command": "select_lines",
+		"args": {"forward": false}
+	},
+	{
+		"keys": ["super+alt+down"],
+		"command": "select_lines",
+		"args": {"forward": true}
+	},
+	// Go To Line Cmd + G instead of Ctrl + G
+	{
+		"keys": ["super+g"],
+		"command": "show_overlay",
+		"args": {"overlay": "goto", "text": ":"}
+	},
+]
