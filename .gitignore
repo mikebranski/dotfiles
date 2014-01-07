@@ -1,7 +1,22 @@
-sublime2/User/Package\ Control.sublime-settings
-sublime2/User/Package Control.last-run
+########################################
+# Git
+########################################
+
+# Global Config
 git/gitconfig.symlink
 
-sublime-text-3/Installed Packages/PyV8/osx-p3/config.json
+
+########################################
+# SublimeText
+########################################
+
+# Package Control
 Package Control.cache
 Package Control.last-run
+# I like to version this to keep my dev environments in-sync
+# Package Control.sublime-settings
+
+# Individual Packages
+# Note: The `**` wildcard syntax will match any level of subdirectories,
+#       and is available as of Git 1.8.2.
+**/Installed Packages/PyV8/osx-p3/config.json
