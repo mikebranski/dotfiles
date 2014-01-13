@@ -3,9 +3,7 @@
   // Theme
   //====================================
   "theme": "Soda Dark 3.sublime-theme",
-  // Trying out Tomorrow Night instead of Twilight
-  // "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
-  "color_scheme": "Packages/User/Tomorrow-Night.tmTheme",
+  "color_scheme": "Packages/Color Scheme - Default/Twilight.tmTheme",
   "soda_classic_tabs": true,
   "soda_folder_icons": true,
 
