@@ -6,10 +6,11 @@
 command="sudo launchctl load /Library/LaunchDaemons/org.virtualbox.startup.plist";
 
 echo "Here's the command to restart VirtualBox 4.3+. Remember, kids, sharing is caring!\n"
-echo "$command"
 
 # Check if pbcopy is available. If so, copy the command to the clipboard.
-if command -v pbcopy; then
-  echo "(We've copied this to your clipboard for you.)"
+if command -v pbcopy &> /dev/null; then
+  echo "(We've copied this to your clipboard for you.)\n"
   echo "$command" | pbcopy
 fi
+
+echo "$command"
