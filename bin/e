@@ -5,6 +5,13 @@
 # This means that as I travel back and forth between editors, hey, I don't have
 # to re-learn any arcane commands. Neat.
 #
+# When $EDITOR is set to one with a GUI, it's not uncommon to pass a wait flag
+# to the command, which instructs the shell to wait for the passed files to
+# close before returning. This allows us to use e.g. Sublime Text for our Git
+# commit messages. However, to avoid having to hit Ctrl + Z every time we invoke
+# this editor shortcut, we simply background the task which will end when the
+# original file or directory is closed.
+#
 # USAGE:
 #
 #   $ e
@@ -15,7 +22,7 @@
 #   # => opens the specified directory in your editor
 
 if [ "$1" = "" ] ; then
-  exec $EDITOR .
+  exec $EDITOR . &
 else
-  exec $EDITOR "$1"
+  exec $EDITOR "$1" &
 fi
