@@ -19,4 +19,9 @@
 		"command": "show_overlay",
 		"args": {"overlay": "goto", "text": ":"}
 	},
+  {
+  	"keys": ["super+shift+r"],
+  	"command": "reindent",
+  	"args": {"single_line": false}
+  }
 ]
