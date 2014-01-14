@@ -1,0 +1,15 @@
+#!/bin/sh
+#
+# echo ~/.ssh/id_rsa.pub and copy it to the clipboard
+
+ssh_key=~/.ssh/id_rsa.pub;
+
+echo "Retrieving $ssh_key\n"
+
+# Check if pbcopy is available. If so, copy the public key to the clipboard.
+if command -v pbcopy &> /dev/null; then
+ echo "(We've copied this to your clipboard for you.)\n"
+ cat $ssh_key | pbcopy
+fi
+
+cat $ssh_key
