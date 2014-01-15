@@ -1,0 +1,5 @@
+#!/bin/bash
+#
+# Handy dandy shortcut for opening this project in the default editor using our
+# other handy dandy editor shortcut, e.
+e $ZSH
