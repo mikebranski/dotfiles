@@ -12,7 +12,7 @@
   //====================================
   // Display
   //====================================
-  "font_size": 12,
+  "font_size": 13,
   "rulers": [80],
   "highlight_line": true,
   "highlight_modified_tabs": true,
