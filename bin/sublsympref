@@ -1,0 +1,4 @@
+#!/bin/sh
+#
+# Run script that symlinks Sublime Text user data
+$ZSH/sublime-text-3/setup
