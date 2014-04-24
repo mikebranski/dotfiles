@@ -4,7 +4,9 @@
 	[
 		"ApacheConf.tmLanguage",
 		"DocBlockr",
+		"EditorConfig",
 		"Emmet",
+		"GitGutter",
 		"Handlebars",
 		"INI",
 		"Laravel Blade Highlighter",
@@ -13,6 +15,7 @@
 		"Package Control",
 		"Pretty JSON",
 		"SCSS",
+		"SideBarEnhancements",
 		"Smart Title Case",
 		"Theme - Soda",
 		"Theme - Spacegray"
