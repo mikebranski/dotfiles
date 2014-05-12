@@ -1,0 +1,25 @@
+#!/bin/sh
+# Setup a machine for Atom.io
+# set -x
+
+# WHERE YOU AT?!
+atom_dir="$HOME/.atom"
+
+# Back up existing configuration
+if [[ -d "$atom_dir" ]] ; then
+
+  # Delete the existing backup, if any
+  # todo: We should ask for confirmation, first. :)
+  if [[ -d "$atom_dir.backup" ]] ; then
+    echo "Removing existing .atom.backup."
+    rm -rf "$atom_dir.backup"
+  fi
+
+  echo "Backing up existing .atom directory..."
+  mv "$atom_dir" "$atom_dir.backup"
+
+fi
+
+# Symlink settings from this repo
+echo "Symlinking .atom!"
+ln -s "$ZSH/atom/.atom" "$atom_dir"
