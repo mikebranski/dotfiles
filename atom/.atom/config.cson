@@ -1,5 +1,6 @@
 'editor':
   'fontSize': 16
+  'softWrap': true
 'core':
   'themes': [
     'atom-dark-ui'
