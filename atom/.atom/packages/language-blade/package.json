@@ -1,0 +1,24 @@
+{
+  "name": "language-blade",
+  "version": "0.1.0",
+  "description": "language-blade",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jawee/language-blade"
+  },
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "readme": "# Blade templating support in Atom\n\nOriginally [Converted](http://atom.io/docs/latest/converting-a-text-mate-bundle) from [Blade textmate tmbundle](https://github.com/outofcontrol/Blade.tmbundle)\n\nContributions are greatly appreciated. Please fork this repository and open a\npull request to add snippets, make grammar tweaks, etc.\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jawee/language-blade/issues"
+  },
+  "homepage": "https://github.com/jawee/language-blade",
+  "_id": "language-blade@0.1.0",
+  "dist": {
+    "shasum": "056c8e3142f1138776f0e0e610f0d0460d9d0712"
+  },
+  "_resolved": "/var/folders/29/xm6qzdhs5259p5s82t0415q80000gn/T/d-114412-48688-k1vc7i/package.tgz",
+  "_from": "/var/folders/29/xm6qzdhs5259p5s82t0415q80000gn/T/d-114412-48688-k1vc7i/package.tgz"
+}
