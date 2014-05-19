@@ -9,9 +9,6 @@
     'solarized-dark-syntax'
   ]
   'projectHome': '~/Code'
-  'disabledPackages': [
-    'language-blade'
-  ]
 'exception-reporting':
   'userId': '23d68a4e-287c-2f1c-d2c5-f6a72387d2b6'
 'release-notes':
