@@ -1,19 +1,22 @@
 'editor':
-  'fontSize': 16
-  'showIndentGuide': true
-  'showInvisibles': true
   'softWrap': true
+  'fontSize': 15
+  'showIndentGuide': true
 'core':
-  'themes': [
-    'atom-dark-ui'
-    'solarized-dark-syntax'
-  ]
   'projectHome': '~/Code'
+  'excludeVcsIgnoredPaths': false
+  'themes': [
+    'atom-io-ui'
+    'solarized-light-syntax'
+  ]
+  'destroyEmptyPanes': false
 'exception-reporting':
   'userId': '23d68a4e-287c-2f1c-d2c5-f6a72387d2b6'
 'release-notes':
-  'viewedVersion': '0.94.0'
+  'viewedVersion': '0.95.0'
 'welcome':
   'showOnStartup': false
 'metrics':
   'userId': 'a1c4d25c60cd70f645f33a31bc20a3a8671ee47a'
+'scroll-past-end':
+  'retainHalfScreen': true

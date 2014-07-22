@@ -1,0 +1,27 @@
+{
+  "name": "proton-monokai",
+  "theme": "syntax",
+  "version": "0.26.0",
+  "private": false,
+  "description": "A monokai syntax for the Proton UI theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simko-io/proton-monokai"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "readme": "# Proton Monokai\n\nA monokai syntax theme for Atom to work with [Proton UI](https://atom.io/packages/proton).\n\nOriginally converted from [kevinsawicki](https://github.com/kevinsawicki)'s Monokai [port](https://github.com/kevinsawicki/monokai).\n\n![Screenshot](http://cl.ly/image/2Y3v0S0V3Y04/Image%202014-05-14%20at%207.59.58%20AM.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/simko-io/proton-monokai/issues"
+  },
+  "homepage": "https://github.com/simko-io/proton-monokai",
+  "_id": "proton-monokai@0.26.0",
+  "dist": {
+    "shasum": "137db939387c0b26413694177f57c123f2bf5748"
+  },
+  "_resolved": "/var/folders/29/xm6qzdhs5259p5s82t0415q80000gn/T/d-114529-73000-ou83xz/package.tgz",
+  "_from": "/var/folders/29/xm6qzdhs5259p5s82t0415q80000gn/T/d-114529-73000-ou83xz/package.tgz"
+}

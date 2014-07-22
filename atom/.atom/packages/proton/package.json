@@ -1,0 +1,27 @@
+{
+  "name": "proton",
+  "theme": "ui",
+  "version": "0.11.0",
+  "private": false,
+  "description": "A flat streamlined theme based on Neutron UI",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/simko-io/proton"
+  },
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.39.0"
+  },
+  "readme": "# Proton UI Theme for Atom\n\nAn almost flat theme in shades of gunmetal and medium-contrast colors. **Pair it with the [Proton Monokai Syntax Theme](http://atom.io/packages/proton-monokai)**.\n\nForked from the [Neutron theme](https://github.com/brentd/neutron-ui) by [@brentd](https://github.com/brentd/).\n\n![screenshot](http://cl.ly/image/323M2z0Y1b3f/Image%202014-05-29%20at%208.41.23%20AM.png)\n",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/simko-io/proton/issues"
+  },
+  "homepage": "https://github.com/simko-io/proton",
+  "_id": "proton@0.11.0",
+  "dist": {
+    "shasum": "c0b93d489b48094c26b0778bdfc6b132aece177a"
+  },
+  "_resolved": "/var/folders/29/xm6qzdhs5259p5s82t0415q80000gn/T/d-114512-11005-exbx1/package.tgz",
+  "_from": "/var/folders/29/xm6qzdhs5259p5s82t0415q80000gn/T/d-114512-11005-exbx1/package.tgz"
+}
