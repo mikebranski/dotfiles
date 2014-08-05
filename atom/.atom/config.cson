@@ -6,8 +6,8 @@
   'projectHome': '~/Code'
   'excludeVcsIgnoredPaths': false
   'themes': [
-    'atom-io-ui'
-    'solarized-light-syntax'
+    'atom-dark-ui'
+    'monokai'
   ]
   'destroyEmptyPanes': false
 'exception-reporting':
