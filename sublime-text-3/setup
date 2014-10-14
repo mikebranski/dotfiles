@@ -9,23 +9,24 @@ sublime_installed_packages_dir="$sublime_dir/Installed Packages"
 
 # Back up existing configuration
 # todo: Make it DRY - Put these directories in an array and iterate over that
-if [[ -d "$sublime_packages_dir" ]] ; then
+if [[ -e "$sublime_packages_dir" ]] ; then
 
 	# Delete the existing backup, if any
 	# todo: We should ask for confirmation, first. :)
-	if [[ -d "$sublime_packages_dir.backup" ]] ; then
+	if [[ -e "$sublime_packages_dir.backup" ]] ; then
 		echo "Removing existing Packages.backup."
 		rm -rf "$sublime_packages_dir.backup"
 	fi
 
 	echo "Backing up existing Packages directory..."
 	mv "$sublime_packages_dir" "$sublime_packages_dir.backup"
-
 fi
 
-if [[ -d "$sublime_installed_packages_dir" ]] ; then
 
-	if [[ -d "$sublime_installed_packages_dir.backup" ]] ; then
+
+if [[ -e "$sublime_installed_packages_dir" ]] ; then
+
+	if [[ -e "$sublime_installed_packages_dir.backup" ]] ; then
 		echo "Removing existing Installed Packages.backup."
 		rm -rf "$sublime_installed_packages_dir.backup"
 	fi
