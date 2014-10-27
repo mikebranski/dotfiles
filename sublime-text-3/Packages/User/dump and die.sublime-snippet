@@ -1,7 +1,0 @@
-<snippet>
-	<content><![CDATA[
-dd('$1');
-]]></content>
-	<tabTrigger>dd</tabTrigger>
-	<scope>source.php</scope>
-</snippet>

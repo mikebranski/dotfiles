@@ -1,9 +1,0 @@
-<snippet>
-    <content><![CDATA[echo '<pre>' . print_r(\$$1, true) . '</pre>';]]></content>
-    <!-- Optional: Tab trigger to activate the snippet -->
-    <tabTrigger>pr</tabTrigger>
-    <!-- Optional: Scope the tab trigger will be active in -->
-    <scope>source.php</scope>
-    <!-- Optional: Description to show in the menu -->
-    <description>Preformatted print_r()</description>
-</snippet>
