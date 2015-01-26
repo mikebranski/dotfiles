@@ -1,5 +1,0 @@
-#!/bin/sh
-#
-# Opens the local aftcra.com project directory in the default editor.
-
-e "$PROJECTS/aftcra"
